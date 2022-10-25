@@ -1,0 +1,590 @@
+
+/* Section-1 header */
+
+.container
+{
+
+}
+.header
+{
+    text-align: center;
+    background-color: white;
+    height: 50px;
+}
+.navbar
+{
+    padding-top: 2px;
+    background-color: black;
+    height: 50px;
+    border-radius: 5px;
+    align-items: center;
+}
+.menuleft a{
+    text-decoration: none;
+    color: black;
+}
+.item1
+{
+    flex: 1;
+}
+.texthead
+{
+    line-height: 40px;
+font-size: 20px;
+font-weight: 900;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.navheader
+{
+    padding-top: 20px;
+    padding-bottom: 1px;
+    display: flex;
+    height: 50px;
+    align-items: center;
+   
+}
+.logo
+{
+    line-height: 30px;
+    height: 90px;
+    width: 170px;   
+}
+.menuleft
+{
+    display: flex;
+    flex: 1;
+    line-height: 30px;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.texthead  :hover
+{
+    border-radius: 10px;
+    background-color: rgb(87, 33, 33);
+}
+.texthead:hover
+{
+    transform: scale(1.2);
+}
+.texthead a{
+    text-decoration: none;
+    color: white;
+}
+.dn
+{ flex: 3;
+text-align:center;}
+.topnav input[type=text] {
+    float: right;
+    padding: 6px;
+    margin-right: 16px;
+    border: none;
+    font-size: 17px;
+  }
+.dn > :hover
+{
+    background-color: rgb(163, 234, 163);
+    border-radius: 1px;
+}
+.logococoon :hover
+{
+    transform: scale(1.2);
+}
+.itemdropmenu
+{
+
+        position: relative;
+        display: inline-block;
+        flex: 1;
+        border-radius: 40px;
+}
+.itemdropmenu:hover .drop-content
+{
+    display: inline-block;
+}
+.drop-content{
+    padding-top: 500px;
+    background-color: rgb(255, 255, 255);
+    height: 710px;
+    width: 210px;
+    display: none;
+    border-radius: 10px;
+
+}
+.drop-content a {
+    display: block;
+ }
+ .drop-content>:hover
+ {
+transform:scale(1.055);
+ }
+ .drop-item
+ {
+     background-color: rgb(255, 255, 255);
+     min-height: 100px;
+     width: 200px;
+     text-align: left;
+     font-size: 20px;
+ }
+ .drop-item:hover
+ {
+    background-color: aqua;
+    border-radius: 10px;
+ }
+ .item-img
+ {
+    height: 100px;
+ }
+ .menuleft1
+{
+    display: flex;
+    flex: 5;
+    line-height: 30px;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.menuleft1 a{
+    text-decoration: none;
+    color: black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;;
+}
+
+/* Section-2-1 content */
+.bannertotal :hover
+{
+    transform: scale(1.09);
+}
+.banner
+{
+    flex:1;
+    width: 900px;
+    height: 1000px;
+}
+.midcontent{
+    display: flex;
+}
+.textc{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: green;
+    text-align: center;
+    padding-top: 1px;
+    font-size: 17px;
+}
+.myphamthuanchay{
+padding: 60px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 120px;
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+.textcontent
+{
+    margin: 0 auto;
+background-color: rgb(166, 139, 63);
+width: 990px;
+height: 1000px;
+
+ text-align: right;
+}
+.mid {
+    text-align: center;
+}
+.search{
+    height: 20px;
+    text-align: center;
+    width: 20px;
+    padding-top: 21px;
+}
+.button{
+    text-align: center;
+}
+.datngay{
+    background-color: rgb(171, 104, 104);
+    box-shadow: 1px 1px 1px 3px rgb(64, 55, 55);;
+    text-align: center;
+    height: 40px;
+    line-height: 43px;
+width: 150px;
+margin-left: auto; margin-right: auto;
+border-radius: 1px;
+font-size: 14px;
+font-weight: 900;
+
+}
+.datngay{
+    
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border-radius: 10px;
+    border-style: double double double double;
+}
+.datngay:hover
+{
+    background-color: aqua;
+    transform: scale(1.2);
+}
+.datngay a{
+    text-decoration: none;
+    color: rgb(249, 244, 244);
+}
+.midcontent
+{
+    padding-top: 1;
+}
+.textc1
+{
+    font-size: large;
+    text-align: center;
+    color: white;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.textc
+{ 
+    font-size: 40px;
+    color: white;
+    
+}
+.texxt
+{
+    font-style: italic;
+    text-align: center;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+/* Section-2-2-Content */
+
+.contentpng
+{
+    line-height: 10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.section-1
+{
+    display: flex;
+    font-size: 20px;
+}
+.leapingbunny
+{
+ line-height: 60px;
+    flex: 1;
+}
+.section-2
+{
+    display: flex;
+    height: 150px;
+}
+.leapingbunny1
+{
+    height: 150px;
+    flex: 1;
+}
+.leapingbunny1:hover
+{
+    transform: scale(2.0);
+}
+.section-3
+{
+    display: flex;
+}
+.textsec3
+{ 
+    flex: 1;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    text-align: center;
+    font-weight: 100;
+}
+
+/* Section-2-3-content */
+.footer
+{
+
+}
+.bannerfoot:hover
+{
+    transform: scale(1.055);
+}
+.bannerbot
+{
+ height: 799px;
+}
+.section-4
+{
+    background-color: rgb(220, 209, 209);
+    height: 300px;
+    border-radius: 10px;
+    padding-top: 1px;
+}
+.buttonslide
+{
+    padding-top: 70px;
+    justify-content: center;
+    position: relative;
+    display: flex;
+}
+.slidebutton
+{
+    border-radius: 300px;
+    background-color: brown;
+    width: 20px;
+    height: 20px;
+}
+.slidebutton:hover
+{
+    background-color: black;
+}
+.cocoon
+{ 
+    color: rgb(87, 206, 122);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: italic;
+    font-size: 40px;
+    padding-top: 40px;
+    font-weight: 900;
+}
+.cocoon1
+{
+    color: black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 900;
+}
+.footermain
+{
+ background-color:bisque;
+ padding-top: 1px;
+}
+.footerright
+{ 
+    flex: 2;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 25px;
+    text-align: left;
+    color: brown;
+    padding-left: 80px;
+}
+.small-section
+{
+    display: flex;
+}
+.itemfoot1
+{
+    flex:3;
+}
+.dh1
+{
+    padding-left: 80px;
+    text-align: left;
+    font-weight: 100;
+    font-size: medium;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.dh1 a{
+    color: black;
+    text-decoration: none;}
+.dh1 :hover
+{
+    transition: 1s color ease;
+    background-color: rgb(230, 192, 192);
+    border-radius: 10px;
+}
+.dh1 :hover
+{
+    transform: scale(1.2);
+}
+.dh 
+{
+    text-align: left;
+    padding-left: 80px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.dh :hover
+{
+    text-decoration: none;
+}
+
+/* Section img show */
+.section-3-1
+{
+    padding: 50px;
+    display: flex;
+    height: 600px;
+    justify-content: center;
+}
+.item-menu-left
+{
+   padding: 50px;
+}
+.hashtag
+{
+    text-align: left;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.hashtag > a
+{text-decoration: none;
+color: black;}
+.followus
+{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: right;
+    font-size: 30px;
+    border-style: double double double double;
+border
+}
+.followus > a
+{
+    text-decoration: none;
+    color: black;
+}
+.followus:hover
+{
+    background-color: aqua;
+}
+.leftimg
+{
+    border-radius: 10px;
+    width: 410px;
+}
+.leftimg:hover
+{
+    transform: scale(1.055);
+}
+.item-menu-right
+{
+    padding: 50px;
+}
+.rightimg
+{
+    border-radius: 10px;
+
+    width: 200px;
+}
+.rightimg:hover
+{
+  transform: scale(1.055);
+}
+
+/* Section-2-4 login */
+.section-13
+{
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    height: 600px;
+ font-size: 20px;
+}
+.form-login
+{
+    padding-top: 40px;
+    align-items: right;
+    display: flex;
+}
+.Bee1
+{
+    flex: 1;
+    width: 225px;
+ height: 450px;
+}
+.Bee1:hover
+{
+    transform: scale(1.2);
+}
+.cocoon-1 {
+    width: 400px;
+    height: 300px;
+    padding-top: 260px;
+}
+.border-style-1
+{
+    background-color: rgb(224, 238, 224);
+    border-radius: 40px;
+}
+.log
+{
+    font-size: 15px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: left;
+    font-weight: 500;
+    text-align: center;
+    padding: 50px;
+}
+.login1
+{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;;
+    text-align: center;
+}
+.login 
+{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;;
+    font-size: 25px;
+}
+.banchuacotaikhoan
+{
+    color:rgb(3, 183, 183);
+}
+.banchuacotaikhoan > a{
+   color: rgb(62, 168, 62);
+}
+.loginmain
+{
+    color: rgb(75, 150, 75);
+    font-size: small;
+}
+.sub1 > :hover
+{
+    transform: scale(1.5);
+}
+.dangnhapbang
+{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;;
+}
+.item-contact
+{   
+   
+    justify-content: center;
+    display: flex;
+}
+.item-contact :hover
+{
+    transform: scale(1.1);
+}
+.fb 
+{
+    padding: 10px;
+    height: 40px;
+}
+
+/* Section-3-footer*/
+.footer2
+{
+    color: rgb(124, 222, 85);
+    background-color: rgb(65, 14, 14);
+    height: 300px;
+ font-size: 20px;
+
+ font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+ padding-top: 50px;
+ font-weight: 900;
+ text-align: left;
+ padding-left: 80px;
+}
+.contentfooter
+{
+    color: white;
+    font-size: small;
+}
+.bot2
+{
+    font-size: 10px;
+    color: gray;
+    
+}
+.dathongbao
+{
+    height: 30px;
+    text-align: right;
+    padding-right: 90px;
+    padding-top: 90px;
+}
+.bct
+{
+    height: 40px;
+}
